@@ -15,7 +15,7 @@ module.exports = {
         let embed = new Discord.MessageEmbed()
         .setColor('#000')
         .setTitle('Choisis une équipe !')
-        .setDescription('Choisir une équipe te permettra de parler à dans certains channels ! \n\n'
+        .setDescription('Choisir une équipe te permettra de parler dans certains channels ! \n\n'
         +`${BlueTeamEmoji} pour l'équipe bleue\n`
         +`${RedTeamEmoji} pour l'équipe rouge`);
 
