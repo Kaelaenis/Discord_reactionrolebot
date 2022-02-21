@@ -9,8 +9,8 @@ module.exports = {
         const RedTeam = message.guild.roles.cache.find(
             (role) => role.name === "RedTeam"
             );
-        const BlueTeamEmoji = '🍎';
-        const RedTeamEmoji = '🍏';
+        const BlueTeamEmoji = '🫐';
+        const RedTeamEmoji = '🍎';
 
         let embed = new Discord.MessageEmbed()
         .setColor('#000')
